@@ -1,0 +1,18 @@
+/* Componentes vetoriais reutilizados da linguagem visual do Vespa Player. */
+.symbol-library{position:absolute;width:0;height:0;overflow:hidden}
+.icon{display:inline-block;width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle}
+.brand-logo{width:36px;height:36px;display:block;flex:none}
+.vespa-app-icon{width:36px;height:36px;object-fit:contain;display:block;flex:none}
+.tiny-brand .vespa-app-icon{width:17px;height:17px}
+.hero-mascot{position:absolute;z-index:1;right:8%;top:50%;width:min(35vw,390px);transform:translateY(-50%);filter:drop-shadow(0 20px 30px #0009);pointer-events:none}
+.player-preview{z-index:2}
+.header-download .icon{width:14px;height:14px;margin-left:4px}
+.button .icon{width:16px;height:16px}
+.preview-play .icon{width:19px;height:19px;stroke:none}
+.feature-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:10px;background:#ffd43b0c;border:1px solid #ffd43b21}
+.feature-icon .icon{width:21px;height:21px}
+.device-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:#ffd43b0c;border:1px solid #ffd43b21}
+.device-icon .icon{width:25px;height:25px}
+.notice-symbol .icon{width:29px;height:29px}
+
+@media(max-width:760px){.hero-mascot{width:210px;right:calc(50% - 105px);top:auto;bottom:43px;transform:none;opacity:.58}.vespa-app-icon{width:32px;height:32px}}

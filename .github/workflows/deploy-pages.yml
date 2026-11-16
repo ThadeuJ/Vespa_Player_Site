@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Baixar código
         uses: actions/checkout@v6
+        with:
+          lfs: true
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
